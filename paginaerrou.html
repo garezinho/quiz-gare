@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <!-Título da página->
+        <title>Você errou!</title>
+
+    <!-Logo da página->
+        <link rel="icon" type="image/png" href="Imagens/logoficial.png"/>
+
+
+    <!-Efeito botão->
+		<style> 
+			button:hover {
+					color: #B0C4DE;
+					}
+			</style>
+	
+    <!-Imagem de fundo->
+            <style> 
+            body { 
+                margin: 0;
+                padding: 0;
+                background-image: url("imagens/enzoarroz.png");
+                background-size: cover;
+
+                 }            </style>
+            
+
+</head>
+<body>
+
+    <!- Escrito Voce errou->
+        <DIV style=" 
+            HEIGHT: 10px;
+            LEFT: 580px; 
+            POSITION: absolute;
+            TOP: 10px; 
+            WIDTH: 200px">
+             <h1> 
+                <p style = "font-family: Courier New;"> <pre>
+                <font size="7">
+                    <pre>Você errou a pergunta!
+   Tente novamente. </pre> </font> </pre> </p>
+                                </h1></DIV>
+
+    <!-Botão voltar->
+    
+			<button style="
+				margin-top: 400px;
+				margin-left: 700px;
+				margin-right: 15px;
+				height: 90px;
+				width: 200px; 
+				background-color:#228B22;
+				border-radius: 10px;
+				"
+					 onclick="voltarInicio()">
+					 <h1>Voltar ao início</h1></button>
+
+
+        
+
+
+    <!-Script retornar->
+    <script>
+        function voltarInicio() {
+            window.location.href = "paginainicio.html";
+                }
+                </script>
+
+    <!-Marca registrada->
+    <DIV style=" 
+        HEIGHT: 95px; 
+        LEFT: 1260px; 
+        POSITION: absolute; 
+        TOP: 890px; 
+        WIDTH: 200px">
+            <h3> 
+    <pre>Versão Beta V1, By  Guilherme Garé, 05/03/23. </pre> </h3>
+    </DIV>
+    
+</body>
+</html>

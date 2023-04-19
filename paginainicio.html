@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	
+	<!-Nome da página->
+	<title>Quiz Garé</title>
+
+	
+	<!-Icon da página ->
+        <link rel="icon" type="image/png" href="imagens/logoficial.png"/>
+	
+	
+	<!-Efeito botão->
+		<style> 
+			button:hover {
+					color: #B0C4DE;
+					}
+			</style>
+
+	<!-Desabilitar voltar->
+	<script>
+		window.history.pushState(null, "", window.location.href);
+		window.onpopstate = function() {
+			window.history.pushState(null, "", window.location.href);
+		};
+	</script>
+
+<div>
+
+	<!-Imagem de fundo->
+		<style> 
+				body { 
+			margin: 0;
+			padding: 0;
+			background-image: url("imagens/garejogado.png");
+			background-size: cover;
+
+					 }           
+					  </style>
+					  		</div>
+	
+
+	
+	
+</head>
+<body>
+
+	<!-Escrito versão>
+
+	<DIV style=" 
+	HEIGHT: 55px; 
+	LEFT: 1470px; 
+	POSITION: absolute; 
+	TOP: 880px; 
+	WIDTH: 200px">
+	<h4>Versão Beta V1, By  Guilherme Garé, 05/03/23. </h4>
+	</DIV>
+
+
+
+
+
+	<!- Escrito Gare V1->
+	<DIV style=" 
+		HEIGHT: 20px;
+	 	LEFT: 360px; 
+		POSITION: absolute;
+		TOP: 90px; 
+		WIDTH: 200px">
+		 <h1> 
+			<p style = "font-family: Helvetica;"> <pre>
+			<font size="7">GARÉ QUIZ </font> </pre> </p>
+							</h1></DIV>
+
+	<!- Escrito Gare V1->
+		<DIV style=" 
+			LEFT: -120px; 
+			POSITION: absolute;
+			TOP: 150px; 
+			WIDTH: 200px">
+				<h1> 
+					<p style = "font-family: Bodoni MT;"> <pre>
+						<font size="5">Um quiz para aqueles que realmente o conhecem. </font> </pre> </p>
+								</h1></DIV>
+
+
+	
+	<!- Botão que redireciona Começar->
+			<button style="
+				margin-top: 400px;
+				margin-left: 700px;
+				margin-right: 15px;
+				height: 90px;
+				width: 200px; 
+				background-color:#228B22;
+				border-radius: 10px;
+				"
+					 onclick="redirecionar()">
+					 <h1>Começar</h1></button>
+
+	<div>			 
+	<!- Botão que redireciona Informações->
+			<button style="
+				margin-top: 30px;
+				margin-left: 700px;
+				margin-right: 15px;
+				height: 90px;
+				width: 200px; 
+				background-color:#696969;
+				border-radius: 10px;
+				"
+				onclick="redirecionarPagInfo()">
+				<h1>Informações</h1></button>
+				</div>
+
+	<!-Script em JavaScript que redireciona para a Pergunta1->
+
+		<script>
+			function redirecionar() {
+				window.location.href = "pergunta1.html";
+			}
+		</script>
+
+	<!-Script em JavaScript que redireciona para as Informações->
+
+		<script>
+			function redirecionarPagInfo() {
+				window.location.href = "paginformações.html";
+			}
+		</script>
+
+
+		<div>
+	<!- Script e botão que fecham a página->
+		<button style="
+		margin-top: 30px;
+		margin-left: 700px;
+		margin-right: 20px;
+		height: 90px;
+		width: 200px;
+		background-color:#FF0000;
+		border-radius: 10px;
+		" 
+		onclick="window.close()"> 
+		<h1>Sair </h1></button>
+			</div>
+	
+				
+
+</body>
+</html>
